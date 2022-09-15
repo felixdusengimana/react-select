@@ -43,6 +43,7 @@ const Select: React.FC<SelectProps> = ({value, onChange, options}) => {
     
     useEffect(()=>{
       if(selected.length>0){
+        // @ts-ignore: Unreachable code error
         setOptionsList(options.filter((option)=>!selected.includes(option)));
       }else{
         setOptionsList(options.filter(option=>option.label.toLowerCase().includes(searchText.toLowerCase())));
