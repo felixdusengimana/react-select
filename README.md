@@ -11,6 +11,7 @@ This servers to implement multiple select with search options
 2. Inside the application folder run `npm i`
 3. Then run `npm run dev` and visit `http://localhost:3000/`
 
+Click [here](react-select-zeta.vercel.app) to view directly from the web
 
 Author: [Felix Dusengimana](https://github.com/felixdusengimana)
 
