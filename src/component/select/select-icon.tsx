@@ -7,9 +7,9 @@ export interface IconProps {
   name?: string;
 }
 
-const Icon: React.FC<IconProps> = ({fill, size = 24, height =24, width,name, ...props}) => {
+const Icon: React.FC<IconProps> = ({fill,height, width,name, ...props}) => {
   return (
-    <img src={`/assets/icons/${name}.svg`} alt="" aria-label={name}/>
+    <img src={`icons/${name}.svg`} alt="" aria-label={name} width={width} height={height}/>
   );
 };
 
