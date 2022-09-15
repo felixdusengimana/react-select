@@ -5,4 +5,10 @@
 
 This servers to implement multiple select with search options
 
+#### To get started
+
+1. Clone this [repo](https://github.com/felixdusengimana/react-select)
+2. Inside the application folder run `npm i`
+3. Then run `npm run dev` and visit `http://localhost:3000/`
 Author: [Felix Dusengimana](https://github.com/felixdusengimana)
+
